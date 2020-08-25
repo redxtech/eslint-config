@@ -1,0 +1,11 @@
+{
+  "name": "@gabedunn/eslint-config",
+  "version": "1.0.0",
+  "description": "My eslint configuration.",
+  "homepage": "https://github.com/redxtech/eslint-config#readme",
+  "bugs": "https://github.com/redxtech/eslint-config/issues",
+  "license": "MIT",
+  "author": "Gabe Dunn <gabed@hey.com>",
+  "main": "index.js",
+  "repository": "github:redxtech/eslint-config"
+}
