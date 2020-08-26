@@ -54,6 +54,7 @@ yarn add -D @typescript-eslint/parser eslint-config-standard-with-typescript @ty
 # OR
 npm i -D @typescript-eslint/parser eslint-config-standard-with-typescript @typescript-eslint/eslint-plugin
 ```
+You may also have to adjust the `parserOptions` to specify the TypeScript project location and root directory.
 #### Parser
 This option uses [`@typescript-eslint/parser`][ts-parser] as the parser.
 #### Configs
