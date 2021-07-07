@@ -3,11 +3,16 @@
   "version": "1.0.0",
   "description": "Gabe Dunn's eslint configuration.",
   "homepage": "https://github.com/redxtech/eslint-config#readme",
-  "bugs": "https://github.com/redxtech/eslint-config/issues",
+  "bugs": {
+    "url": "https://github.com/redxtech/eslint-config/issues"
+  },
   "license": "MIT",
   "author": "Gabe Dunn <gabe@fea.st>",
   "main": "index.js",
-  "repository": "github:redxtech/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redxtech/eslint-config.git"
+  },
   "devDependencies": {
     "eslint": "^7.30.0",
     "eslint-config-perf-standard": "^2.1.1",
@@ -28,5 +33,12 @@
     "eslint-plugin-sonarjs": "^0.9.1",
     "eslint-plugin-unicorn": "^34.0.1",
     "prettier": "^2.3.2"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint-config",
+    "eslint"
+  ]
 }
