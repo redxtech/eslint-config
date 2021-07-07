@@ -9,6 +9,9 @@
   "license": "MIT",
   "author": "Gabe Dunn <gabe@fea.st>",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/redxtech/eslint-config.git"
