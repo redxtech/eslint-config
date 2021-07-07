@@ -1,11 +1,32 @@
 {
   "name": "@gabedunn/eslint-config",
   "version": "1.0.0",
-  "description": "My eslint configuration.",
+  "description": "Gabe Dunn's eslint configuration.",
   "homepage": "https://github.com/redxtech/eslint-config#readme",
   "bugs": "https://github.com/redxtech/eslint-config/issues",
   "license": "MIT",
-  "author": "Gabe Dunn <gabed@hey.com>",
+  "author": "Gabe Dunn <gabe@fea.st>",
   "main": "index.js",
-  "repository": "github:redxtech/eslint-config"
+  "repository": "github:redxtech/eslint-config",
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-perf-standard": "^2.1.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-json-format": "^2.0.1",
+    "eslint-plugin-lodash": "^7.2.0",
+    "eslint-plugin-no-secrets": "^0.8.9",
+    "eslint-plugin-no-use-extend-native": "^0.5.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-optimize-regex": "^1.2.0",
+    "eslint-plugin-perf-standard": "^1.0.3",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-sonarjs": "^0.9.1",
+    "eslint-plugin-unicorn": "^34.0.1",
+    "prettier": "^2.3.2"
+  }
 }
